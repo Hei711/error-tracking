@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Log Error - stackr</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <div class="logo-icon">⌘</div>
+    <span>stackr</span>
+  </div>
+</header>
+
+<section class="log-page">
+  <div class="log-container">
+    <h1>Log a New Error</h1>
+    <p class="subtitle">Share the error you encountered and how you solved it.</p>
+
+    <form id="errorForm" class="error-form">
+
+      <label>Title</label>
+      <input type="text" id="title" placeholder="e.g. React key prop warning" required />
+
+      <label>Description</label>
+      <textarea id="message" rows="5" placeholder="Explain what happened..." required></textarea>
+
+      <label>Tags</label>
+      <input type="text" id="tags" placeholder="react, javascript, node" />
+
+      <label>Solution</label>
+      <textarea id="solution" rows="6" placeholder="How did you fix it?"></textarea>
+
+      <button type="submit" class="primary-btn submit-btn">
+        Submit Error
+      </button>
+
+    </form>
+  </div>
+</section>
+
+<script src="log-error.js"></script>
+</body>
+</html>
+<!-- hello -->
