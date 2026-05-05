@@ -1,5 +1,5 @@
 ## Stackr -Keep track of encountered errors
-Stackr is a developers best friend that logs,stores and reuses solutions wncountered by developers
+Stackr is a developers best friend that logs,stores and reuses solutions encountered by developers
 ## Tech Stack
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js with TypeScript
@@ -14,11 +14,11 @@ Tailored for the code blossom curriculum
 
 ## Architecture
 Frontend (HTML/CSS/JS)
-        ↓
+        
 Fetch API (HTTP requests)
-        ↓
+        
 Node.js + Express (TypeScript backend)
-        ↓
+        
 Firebase Realtime Database (JSON storage)
 ## Why stackr
 Can be used as a team tool, yes you can prompt AI but AI wont certainly know about errors in your team,stackr akes it local to your team actual erros,AI gives the general erros,AI has stateless memory
